@@ -39,13 +39,16 @@
                         $(this).toggleClass('glyphicon-chevron-up').toggleClass('glyphicon-chevron-down');
                     });
                     $(document).ready(function(){
-                        $('.imgzoom').hover(function() {
-                            $(".imgzoom").addClass('transition');
+                       $('.imgzoom').hover(function() {
+                           $(".imgzoom").addClass('transition');
+                           $(".vcenter").addClass('transition');
 
-                        }, function() {
-                            $(".imgzoom").removeClass('transition');
-                        });
-                    });
+                       }, function() {
+                           $(".imgzoom").removeClass('transition');
+                           $(".vcenter").removeClass('transition');
+
+                       });
+                   });
 
         });
 
@@ -199,11 +202,10 @@
        <div class="col-md-1">
        </div>
    <div style="top: 25px;" class="col-md-5">
-     <div class="thumbnail">
+     <div class="thumbnail ">
          <img class="imgzoom" src="img/banner5.jpg" alt="Lights" style="width:100%; height:200px;">
-
-         <div class="caption">
-           <p>Rajasthan</p>
+         <div class="caption post-content vcenter imgzoom">
+           <p style="font-size:25px; font-family:Roboto; font-weight:300; color:#424242;opacity:1;">Rajasthan</p>
          </div>
          <div class="container">
              <div class="row">
@@ -360,7 +362,6 @@
                         </div>
                     </div>
                     <!-- </div> -->
-                    <div class="container">
                         <div class="row">
                            <div class="col-md-4">
                            </div>
@@ -369,7 +370,6 @@
                            <div class="col-md-4">
                                <input class="button button2" type="submit" name="" value="BOOK">
                            </div>
-                       </div>
                        </div>
              </div>
 
@@ -539,7 +539,6 @@
                           </div>
                       </div>
                       <!-- </div> -->
-                      <div class="container">
                           <div class="row">
                              <div class="col-md-4">
                              </div>
@@ -548,7 +547,6 @@
                              <div class="col-md-4">
                                  <input class="button button2" type="submit" name="" value="BOOK">
                              </div>
-                         </div>
                          </div>
                </div>
 
@@ -721,7 +719,6 @@
                       </div>
                   </div>
                   <!-- </div> -->
-                  <div class="container">
                       <div class="row">
                          <div class="col-md-4">
                          </div>
@@ -730,7 +727,6 @@
                          <div class="col-md-4">
                              <input class="button button2" type="submit" name="" value="BOOK">
                          </div>
-                     </div>
                      </div>
            </div>
 
@@ -861,9 +857,9 @@
                          <div class="col-md-3">
                               <p>5000</p>
                          </div>
-                         </div> -->
+                         </div>
 
-                     </div>
+                     </div> -->
                  </div>
              </div>
              <div class="container" style="border:1px solid #E0E0E0 ;border-radius: 2px; padding:15px; margin-left:1px;margin-right:1px;margin-top:10px;">
@@ -900,7 +896,6 @@
                         </div>
                     </div>
                     <!-- </div> -->
-                    <div class="container">
                         <div class="row">
                            <div class="col-md-4">
                            </div>
@@ -909,7 +904,6 @@
                            <div class="col-md-4">
                                <input class="button button2" type="submit" name="" value="BOOK">
                            </div>
-                       </div>
                        </div>
              </div>
 

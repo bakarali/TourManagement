@@ -157,6 +157,15 @@ a:focus{
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05), 0 3px 10px 0 rgba(0, 0, 0, 0.10);
 
 }
+.searchtour{
+    width: 100%;
+    /*height: 250px;*/
+    /*padding: 30px;*/
+    padding-left: 15px;
+   border-bottom: 1px solid #E0E0E0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05), 0 3px 10px 0 rgba(0, 0, 0, 0.10);
+
+}
 .button:hover{
     opacity: .9;
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 9px 25px 0 rgba(0, 0, 0, 0.19);
@@ -167,24 +176,57 @@ a:focus{
     -moz-transform: scale(1.05);
     -o-transform: scale(1.05);
     transform: scale(1.05);
+    filter: drop-shadow(4px 4px 5px gray);
 }
 .imgzoom {
 	-webkit-transition: all .4s ease-in-out;
 	-moz-transition: all .4s ease-in-out;
 	-o-transition: all .4s ease-in-out;
 	-ms-transition: all .4s ease-in-out;
+
 }
 
 .imgzoom {
     width:10px;
 }
-.thumbnail {
-    position: relative;
+
+.post-content {
+    background: none repeat scroll 0 0 #FFFFFF;
+    opacity:.6;
+    top:0;
+    left:0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin: auto 0;
 }
 
-.caption {
-    position: absolute;
-    top: 45%;
-    left: 0;
-    width: 100%;
+.thumbnail{
+    position:relative;
+
+}
+.vcenter {
+    margin-top: 50px;
+    height: 100px;
+  line-height: 90px;
+  text-align: center;
+}
+.date{
+    margin-top: -2px;
+}
+.yourflight{
+    font-size:25px;
+    font-family:Roboto;
+    font-weight:300;
+    color:white;
+    padding:15px;
+}
+.yourflight_div{
+    /*border: 1px solid black;*/
+    background:#283593;
+    margin-top:-15px;
+    margin-left:-15px;
+    margin-right:-15px;
+    border-top-right-radius:2px;
+    border-top-left-radius:2px;
 }
